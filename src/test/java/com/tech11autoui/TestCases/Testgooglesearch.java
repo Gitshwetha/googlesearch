@@ -2,7 +2,6 @@ package com.tech11autoui.TestCases;
 
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
@@ -29,20 +28,20 @@ public class Testgooglesearch extends BaseClass {
 
 		System.out.println("page1:---" + page.getText());
 		boolean pageone = page.getText().equals("1");
-		try {
+	/*	try {
 			page.findElement(By.tagName("a"));
 			Assert.assertFalse("url found", false);
 		} catch (Exception e) {
 			Assert.assertTrue("no url found", true);
 			logger.info("An error occured during execution : " + e.getMessage());
-		}
+		} */
 		if (pageone) {
 			if (lst.get(0).getAttribute("href").contains(appurl)) {
 				logger.info("TC01_Searchgoogle method passed");
 				Assert.assertTrue(true);
 
 			} else
-				Assert.fail();
+				Assert.assertTrue(false);
 
 		} else
 			Assert.fail();

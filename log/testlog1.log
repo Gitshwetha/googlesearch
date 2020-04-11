@@ -89,3 +89,21 @@ Session ID: 46ab93ffe3767aea05d7ff3906304ba0
 *** Element info: {Using=tag name, value=a}
 2020-04-10 19:05:28,887 [main] INFO ebanking - TC01_Searchgoogle method passed
 2020-04-10 19:05:28,887 [main] INFO ebanking - Execution completed
+2020-04-11 12:21:02,010 [main] INFO ebanking - Test execution starting...
+2020-04-11 12:21:15,028 [main] INFO ebanking - An error occured during execution : no such element: Unable to locate element: {"method":"css selector","selector":"a"}
+  (Session info: chrome=80.0.3987.163)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'Abhisheks-MBP.fritz.box', ip: '2003:e4:8f43:ea00:595c:55bb:dc28:4cbb%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/40/3_v84w3j26d...}, goog:chromeOptions: {debuggerAddress: localhost:61424}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62007c0c5e3730ac9055a78f83cf6bfd
+*** Element info: {Using=tag name, value=a}
+2020-04-11 12:21:15,062 [main] INFO ebanking - TC01_Searchgoogle method passed
+2020-04-11 12:21:15,062 [main] INFO ebanking - Execution completed
+2020-04-11 12:23:01,936 [main] INFO ebanking - Test execution starting...
+2020-04-11 12:23:05,359 [main] INFO ebanking - TC01_Searchgoogle method passed
+2020-04-11 12:23:05,361 [main] INFO ebanking - Execution completed
+2020-04-11 12:25:24,524 [main] INFO ebanking - Test execution starting...
+2020-04-11 12:25:27,256 [main] INFO ebanking - TC01_Searchgoogle method passed
+2020-04-11 12:25:27,258 [main] INFO ebanking - Execution completed
